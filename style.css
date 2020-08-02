@@ -368,6 +368,7 @@ i.fa-envelope {
     flex-direction: column;
     margin-top: 3rem;
     padding: 8px;
+    overflow-x:hidden;
 }
 
 .skill-container h1 {
@@ -379,7 +380,7 @@ i.fa-envelope {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: auto;
     grid-gap: .5rem;
-    width: 80vw;
+    width: 60vw;
     margin: 3rem auto 3rem auto;
 }
 
