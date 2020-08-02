@@ -155,7 +155,8 @@ i.fa-home {
     i.fa-phone-square,
     i.fa-user-circle,
     i.fa-github,
-    i.fa-home {
+    i.fa-home ,
+    i.fa-wrench{
         display: none;
     }
 }
