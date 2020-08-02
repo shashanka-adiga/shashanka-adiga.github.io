@@ -381,7 +381,7 @@ i.fa-envelope {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: auto;
     grid-gap: .5rem;
-    width: 60vw;
+    width: 80vw;
     margin: 3rem auto 3rem auto;
 }
 
@@ -408,8 +408,11 @@ i.fa-envelope {
     transform: scale(1.06);
     transition: ease-in-out .5s;
 }
-
-
+@media all and (max-width:500px){
+.skills{
+    width:60vw;
+    }
+}
 /* skill ends */
 
 
