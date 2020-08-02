@@ -456,7 +456,7 @@ i.fa-envelope {
     padding: 2rem;
 }
 
-.about-content b {
+.about-content p b {
     text-decoration: underline;
-    color:skyblue;
+    color:blue;
 }
