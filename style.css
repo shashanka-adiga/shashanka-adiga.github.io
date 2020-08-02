@@ -409,7 +409,7 @@ i.fa-envelope {
     transition: ease-in-out .5s;
 }
 
-@media all and (max-width:500px){
+@media all and (max-width:524px){
 .skills{
     width:60%;
     }
