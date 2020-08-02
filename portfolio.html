@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>NAVBAR</title>
+</head>
+
+<body>
+    <!--- Navbar -->
+    <nav class="navbar">
+        <div class="brand-tittle">portfolio</div>
+        <a href="#" class="toggle"><span><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span></a>
+        <div class="navbar-links">
+            <ul class="links">
+                <li><a href="landingpage.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                <li><a class="nav-project"><i class="fa fa-github" aria-hidden="true"></i>Projects</a></li>
+                <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> Skills</a></li>
+                <li><a class="nav-contact"><i class="fa fa-phone-square" aria-hidden="true"></i>  Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--- navbar ends-->
+    <main>
+        <!--  Skills area-->
+        <div class="skill-container">
+            <h1> Skill section</h1>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-image">
+                        <img class="js" src="images/javascript.svg" alt="">
+                    </div>
+                    <div class="skill-detail">
+                        <ul>
+                            <li>ES6 features</li>
+                            <li>Array methods</li>
+                            <li>callback functions</li>
+                            <li>Promises</li>
+                            <li>async/await</li>
+                            <li>DOM</li>
+                            <li>Event handling</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-image">
+                        <img class="react" src="images/react.svg" alt="">
+                    </div>
+                    <div class="skill-detail">
+                        <ul>
+                            <li>React Hooks</li>
+                            <li>Component life cycle</li>
+                            <li>State and set state</li>
+                            <li>Higher order components</li>
+                            <li>React context</li>
+                            <li>JSX</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-image">
+                        <img class="node" src="images/nodejs.png" alt="">
+                    </div>
+                    <div class="skill-detail">
+                        <ul>
+                            <li>Basics of nodejs</li>
+                            <li><b>Express Framework</b></li>
+                            <li>RESTFUL API</li>
+                            <li>GLOBAL objects</li>
+                            <li>node package manager</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-image">
+                        <img class="django" src="images/django.svg" alt="">
+                    </div>
+                    <div class="skill-detail">
+                        <ul>
+                            <li>Intermediate knowledge of Python</li>
+                            <li><b>Basics of Django framework</b></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-image">
+                        <img class="js" src="images/python.svg" alt="">
+                    </div>
+                    <div class="skill-detail">
+                        <ul>
+                            <li>OOP</li>
+                            <li>Data structures</li>
+                            <li>Lambda expressions</li>
+                            <li>Iterators</li>
+                            <li>Exception Handling</li>
+                            <li>Generators</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- skills end-->
+        <!-- project area -->
+        <div class="project-area">
+            <div class="project-header">
+                <h1><span>Recent Projects</span></h1>
+            </div>
+            <div class="filters">
+                <a class="filter_btn all" onclick="filterSelection('all')"> All Projects</a>
+                <a class="filter_btn javascript" onclick="filterSelection('javascript')"> Javascript</a>
+                <a class="filter_btn react" onclick="filterSelection('react')"> React</a>
+                <a class="filter_btn mern" onclick="filterSelection('mern')"> MERN</a>
+            </div>
+            <div class="projects">
+                <div class="project javascript">
+                    <img src="images/booklist.png" alt="">
+                    <a href="https://github.com/shashanka-adiga/Book-List-App" class="git__btn"> Book List &nbsp;<i class="fa fa-github"></i></a>
+                </div>
+                <div class="project react">
+                    <img src="images/recipie.png" alt="">
+                    <a href="https://github.com/shashanka-adiga/Recipie-App" class="git__btn"> Recipie App &nbsp;<i class="fa fa-github"></i></a>
+                </div>
+                <div class="project javascript">
+                    <img src="images/todo.png">
+                    <a href="https://github.com/shashanka-adiga/TODO_APP" class="git__btn"> Todo App &nbsp;<i class="fa fa-github"></i></a>
+                </div>
+                <div class="project mern ">
+                    <img src="images/url.png" alt="">
+                    <a href="https://github.com/shashanka-adiga/URL_Shortner" class="git__btn"> Url Shortner &nbsp;<i class="fa fa-github"></i></a>
+                </div>
+                <div class="project javascript">
+                    <img src="images/portfolio.jpg" alt="">
+                    <a href="landingpage.html" class="git__btn"> Portfolio Site</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- project area ends -->
+
+        <!-- contact -->
+        <div class="contact-header">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact">
+            <div class="contact-page">
+                <div class="email">
+                    <span><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></span>
+                    <p></p><b>interested in hiring me ?</b></p>
+                    <div class="email__btn">
+                        <a href="mailto:shashankaadiga01@gmail.com" class="gmail">MAIL HERE</a>
+                    </div>
+
+                </div>
+                <div class="linkedin">
+                    <span><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></span>
+                    <p>connect on linkedin</p>
+                    <a href="https://www.linkedin.com/in/shashanka-adiga-484218195/" class="link">Connect</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- contact ends -->
+    </main>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="custom.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
+<script>
+    function filterSelection(c) {
+        let k, i, x;
+        let button = document.querySelectorAll('.filter_btn')
+        for (k = 0; k < button.length; k++) {
+            if (button[k].className.indexOf(c) > -1) {
+                button[k].style.background = "rgb(243, 47, 80)";
+                button[k].style.color = "white";
+            } else {
+                button[k].style.background = "none";
+                button[k].style.color = "grey";
+            }
+        }
+        x = document.querySelectorAll(".project");
+        if (c == "all") {
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "block"
+            }
+        } else {
+            for (i = 0; i < x.length; i++) {
+                if (x[i].className.indexOf(c) > -1) {
+                    x[i].style.display = "block";
+                } else {
+                    x[i].style.display = "none";
+                }
+            }
+        }
+
+    }
+</script>

@@ -1,0 +1,27 @@
+const toggleButton = document.getElementsByClassName('toggle')[0]
+const navLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active')
+})
+
+
+// scroll behaviour contact
+
+const contact = document.querySelector(".nav-contact")
+
+contact.addEventListener('click', () => {
+    document.querySelector(".contact-header").scrollIntoView({
+        behavior: "smooth"
+    });
+})
+
+// scroll behaviour project
+
+const project = document.querySelector('.nav-project');
+
+project.addEventListener('click', () => {
+    document.querySelector('.project-area').scrollIntoView({
+        behavior: "smooth"
+    });
+})
