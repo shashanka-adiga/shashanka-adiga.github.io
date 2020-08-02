@@ -457,5 +457,6 @@ i.fa-envelope {
 }
 
 .about-content p a {
-    text-decoration: none;
+    text-decoration: underline;
+    color:skyblue;
 }
