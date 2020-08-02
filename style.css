@@ -408,3 +408,52 @@ i.fa-envelope {
 
 
 /* skill ends */
+
+
+/* about */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.about-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.about-content {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto 2rem auto 1rem;
+}
+
+.about-image {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto 2rem auto 1rem;
+}
+
+.about-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-header {
+    color: rgb(243, 47, 80);
+    padding: 2rem;
+}
+
+.about-content p a {
+    text-decoration: none;
+}
