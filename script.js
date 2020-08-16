@@ -1,12 +1,14 @@
 const toggleButton = document.getElementsByClassName('toggle')[0]
 const navContact = document.getElementsByClassName('nav-contact')[0]
 const navLinks = document.getElementsByClassName('navbar-links')[0]
-console.log(toggleButton)
 
 toggleButton.addEventListener('click', () => {
     navLinks.classList.toggle('active')
 })
 
+navLinks.addEventListener('click', () =>{
+    navLinks.classList.toggle('active')
+})
 
 
 
